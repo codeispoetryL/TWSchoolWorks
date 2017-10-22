@@ -1,4 +1,6 @@
 ### 使用Bootstrap制作试卷
+
+页面预览：http://www.stormxing.com/bootstrap/104/
 #### 任务要求
 
 - 使用Bootstrap栅格系统完成页面布局
