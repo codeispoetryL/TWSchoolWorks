@@ -27,7 +27,11 @@
     </div>
     <div class="row">
         <div class="col-md-3">
-            班级：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input value="1班">
+            <div class="input-group">
+                <span class="input-group-addon" id="sizing-addon1">班级：</span>
+                <input type="text" class="form-control" placeholder="1班" aria-describedby="sizing-addon2">
+            </div>
+        </label>
         </div>
         <div class="col-md-3">
             <div class="input-group">
@@ -36,18 +40,25 @@
             </div>
         </div>
         <div class="col-md-3">
-            姓名：<input value="王小闹">
+            <div class="input-group">
+                <span class="input-group-addon" id="sizing-addon3">姓名：</span>
+                <input type="text" class="form-control" placeholder="王小闹" aria-describedby="sizing-addon2">
+            </div>
         </div>
     </div>
     <h3>一、填空题（每空5分，共20分）</h3>
     <div class="row">
         <div class="col-md-4">
-            1.UML的中文全称是：<input value="统一建模语言">
+            1.UML的中文全称是：<label>
+            <input value="统一建模语言">
+        </label>
         </div>
     </div>
     <div class="row">
         <div class="col-md-4">
-            2.对象最突出的特点是：<input value="封装性继承性多态性">
+            2.对象最突出的特点是：<label>
+            <input value="封装性继承性多态性">
+        </label>
         </div>
     </div>
     <h3>二、选择题（每空10分，共20分）</h3>
@@ -185,8 +196,10 @@
     <div class="row">
         <div class="col-md-8">
             <form>
-                <textarea class="form-control"
-                          rows="6">模型是对现实世界的简化和抽象。模型是对所研究的系统、过程、事物或概念的一种表达式。可以是物理实体；可以是某种图形；或是一种数学表达式。</textarea>
+                <label>
+<textarea class="form-control"
+          rows="6">模型是对现实世界的简化和抽象。模型是对所研究的系统、过程、事物或概念的一种表达式。可以是物理实体；可以是某种图形；或是一种数学表达式。</textarea>
+                </label>
             </form>
         </div>
     </div>
