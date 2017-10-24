@@ -7,31 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>个人简历</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <style>
-        h1{
+        h1 {
             font-weight: bolder;
             text-align: center;
         }
-        h3{
+
+        h3 {
             font-weight: bolder;
         }
-        body{
-            background-color: #fff7d7;
+
+        body {
+            background-color: #c7fdff;
         }
-        img{
+
+        img {
             width: 150px;
             height: 150px;
+            margin-top: 2%;
         }
-        h4{
+
+        h4 {
             color: #ff9b44;
             font-weight: bolder;
-            margin-top: 1%;
         }
-        span{
+
+        .span {
             color: #ff9b44;
         }
-        sup{
+
+        sup {
             opacity: 0.5;
         }
     </style>
@@ -39,24 +46,203 @@
 
 <body>
 <div class="container">
-    <img src="http://upload-images.jianshu.io/upload_images/5349051-cda1ab23cf203526.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
-         class="img-circle img-responsive center-block" alt="Responsive image">
+
+    <!--页头-->
+    <img src="http://upload-images.jianshu.io/upload_images/5349051-aee89896fcfe519b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+         class="img-responsive center-block" alt="Responsive image">
     <div class="page-header">
         <h1>HELLO,</h1>
-            <h3 style="text-align: center">MY NAME IS <span>KAMIL</span><sup>24YO</sup> AND THIS IS MY RESUME/CV</h3>
+        <h3 style="text-align: center">MY NAME IS <span class="span">KAMIL</span><sup>24YO</sup> AND THIS IS MY RESUME/CV</h3>
     </div>
+
+    <!--主体栅格布局，外部一行两列，内部两个一行两列（7/5），两层嵌套-->
     <div class="row">
         <div class="col-md-7">
             <h4>// ABOUT ME</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio
+                magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem
+                dolorum! Quasi.</p>
+            <h4>//EDUCATION</h4>
+            <div class="row">
+                <div class="col-md-2">
+                    <b>1990</b>
+                </div>
+                <div class="col-md-10">
+                    <b>I was born in Katowice</b><br/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores
+                        iste
+                        dolore est aut modi.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <b>2005</b>
+                </div>
+                <div class="col-md-10">
+                    <b>Secondary school specializing in artistic</b><br/>
+                    <p>Eos, explicabo, nam, tenetur et ab eius deserunt aspernatur ipsum ducimus quibusdam quis
+                        voluptatibus.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <b>2009</b>
+                </div>
+                <div class="col-md-10">
+                    <b>First level graduation in Graphic Design</b><br/>
+                    <p>Aspernatur, mollitia, quos maxime eius suscipit sed beatae ducimus quaerat quibusdam perferendis?
+                        Iusto, quibusdam asperiores unde repellat.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <b>2012</b>
+                </div>
+                <div class="col-md-10">
+                    <b>Second level graduation in Graphic Design</b><br/>
+                    <p>Ducimus, aliquam tempore autem itaque et accusantium!</p>
+                </div>
+            </div>
+            <h4>//EXPERIENCES</h4>
+            <div class="row">
+                <div class="col-md-2">
+                    <b>Google</b>
+                    <p style="color: #737373">2013 - 2014</p>
+                </div>
+                <div class="col-md-10">
+                    <b>Front-end developer / php programmer</b><br/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis
+                        velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus
+                        voluptatum? Enim, itaque dignissimos quia.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <b>Twitter</b>
+                    <p style="color: #737373">2012</p>
+                </div>
+                <div class="col-md-10">
+                    <b>Web Developer</b><br/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil sit nemo voluptatem
+                        praesentium. Quia, qui facere consectetur libero asperiores fugiat consequuntur deserunt culpa
+                        repudiandae sed quidem voluptas explicabo soluta.</p>
+                </div>
+            </div>
         </div>
-        <h3>//EDUCATION</h3>
-
-        <p>
-            I was born in Katowice
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores iste dolore est aut modi.</p>
+        <div class="col-md-5">
+            <h4>// CONTACT</h4>
+            <div class="row">
+                <div class="col-md-1">
+                    <span class="fa fa-phone" aria-hidden="true"></span>
+                </div>
+                <div class="col-md-11">
+                    <b>500 345 242</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <span class="fa fa-envelope-open" aria-hidden="true"></span>
+                </div>
+                <div class="col-md-11">
+                    <b>office@kamsolutions.pl</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <span class="fa fa-twitter" aria-hidden="true"></span>
+                </div>
+                <div class="col-md-11">
+                    <b>Twitter</b>
+                    <p>https://twitter.com/WordPress</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <span class="fa fa-facebook-official" aria-hidden="true"></span>
+                </div>
+                <div class="col-md-11">
+                    <b>Facebook</b>
+                    <p>https://www.facebook.com/facebook</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <span class="fa fa-skype" aria-hidden="true"></span>
+                </div>
+                <div class="col-md-11">
+                    <b>Skype</b>
+                    <p>kamsolutions.pl</p>
+                </div>
+            </div>
+            <h4>// SKILLS</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span>HTML</span>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                    <span>CSS</span>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                    <span>jQuery</span>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                    <span>PHP</span>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                    <span>Laravel...</span>
+                </div>
+            </div>
+            <h4>// LANGUAGES</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Polish</p>
+                </div>
+                <div class="col-md-6">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>English</p>
+                </div>
+                <div class="col-md-6">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+            </div>
+            <h4>// HOBBIES</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="glyphicon glyphicon-tag"></span><mark>Photography</mark>
+                </div>
+                <div class="col-md-3">
+                    <span class="glyphicon glyphicon-tag"></span><mark>Fitness</mark>
+                </div>
+                <div class="col-md-5">
+                    <span class="glyphicon glyphicon-tag"></span><mark> Programming</mark>
+                </div>
+            </div>
+        </div>
     </div>
+    <hr>
+
 </div>
+
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
