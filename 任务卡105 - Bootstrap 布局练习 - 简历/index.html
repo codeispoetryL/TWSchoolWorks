@@ -20,13 +20,12 @@
         }
 
         body {
-            background-color: #c7fdff;
+            background-color: #ddd;
         }
 
         img {
             width: 150px;
             height: 150px;
-            margin-top: 2%;
         }
 
         h4 {
@@ -45,18 +44,26 @@
 </head>
 
 <body>
-<div class="container" style="background-color: #f8f8f8;">
+<div class="container">
 
-    <!--页头-->
-    <img src="http://upload-images.jianshu.io/upload_images/5349051-aee89896fcfe519b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
-         class="img-responsive center-block" alt="Responsive image">
-    <div class="page-header">
-        <h1>HELLO,</h1>
-        <h3 style="text-align: center">MY NAME IS <span class="span">KAMIL</span><sup>24YO</sup> AND THIS IS MY RESUME/CV</h3>
+    <!--页头栅格布局，两行-->
+    <div class="row" style="background-color: #fffefa;padding-top: 2%">
+        <div class="col-md-12">
+            <img src="http://upload-images.jianshu.io/upload_images/5349051-aee89896fcfe519b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                 class="img-responsive center-block img-circle" alt="Responsive image">
+        </div>
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>HELLO,</h1>
+                <h3 style="text-align: center">MY NAME IS <span class="span">KAMIL</span><sup>24YO</sup> AND THIS IS MY
+                    RESUME/CV</h3>
+            </div>
+        </div>
     </div>
 
+
     <!--主体栅格布局，外部一行两列，内部两个一行两列（7/5），两层嵌套-->
-    <div class="row">
+    <div class="row" style="padding-bottom: 30px;margin-bottom: 2%; background-color: #fffefa;">
         <div class="col-md-7">
             <h4>// ABOUT ME</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio
@@ -69,7 +76,8 @@
                 </div>
                 <div class="col-md-10">
                     <b>I was born in Katowice</b><br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam,
+                        dolores
                         iste
                         dolore est aut modi.</p>
                 </div>
@@ -135,7 +143,7 @@
                 <div class="col-md-2" style="margin-top: 4px;">
                     <span class="fa fa-phone" aria-hidden="true" style="margin-top:15px;margin-bottom: 15px;"></span>
                 </div>
-                <div class="col-md-10" style="margin-top:15px;margin-bottom: 15px;margin-left: -15px;">
+                <div class="col-md-10" style="margin-top:15px;margin-left: -15px;">
                     <b>500 345 242</b>
                 </div>
             </div>
@@ -176,27 +184,32 @@
             </div>
             <h4>// SKILLS</h4>
             <div class="progress">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 90%">
                     <span>HTML</span>
                 </div>
             </div>
             <div class="progress">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 70%">
                     <span>CSS</span>
                 </div>
             </div>
             <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 50%">
                     <span>jQuery</span>
                 </div>
             </div>
             <div class="progress">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 30%">
                     <span>PHP</span>
                 </div>
             </div>
             <div class="progress">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 10%">
                     <span>Laravel...</span>
                 </div>
             </div>
@@ -228,23 +241,26 @@
             <h4>// HOBBIES</h4>
             <div class="row">
                 <div class="col-md-4">
-                    <span class="glyphicon glyphicon-tag"></span><mark>Photography</mark>
+                    <span class="glyphicon glyphicon-tag"></span>
+                    <mark>Photography</mark>
                 </div>
                 <div class="col-md-3">
-                    <span class="glyphicon glyphicon-tag"></span><mark>Fitness</mark>
+                    <span class="glyphicon glyphicon-tag"></span>
+                    <mark>Fitness</mark>
                 </div>
                 <div class="col-md-5">
-                    <span class="glyphicon glyphicon-tag"></span><mark> Programming</mark>
+                    <span class="glyphicon glyphicon-tag"></span>
+                    <mark> Programming</mark>
                 </div>
             </div>
         </div>
     </div>
-    <hr>
+    <div class="row" style="background-color: #fffefa;">
 
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </div>
-
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </body>
 </html>
