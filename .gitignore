@@ -1,4 +1,4 @@
 .idea
 node_modules
-package-lock.json
-.gitignore
+/.gitignore
+/package-lock.json
