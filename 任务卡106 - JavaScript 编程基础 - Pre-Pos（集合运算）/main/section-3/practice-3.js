@@ -7,7 +7,7 @@ module.exports = function createUpdatedCollection(collectionA, objectB) {
     for (let i = 0; i < collectionA.length; i++) {
         temp += 1;
         if (collectionA[i] !== collectionA[i + 1]) {
-            result.push({key: collectionA[i], count: temp})
+            result.push({key: collectionA[i], count: temp});
             temp = 0;
         }
     }
@@ -24,4 +24,4 @@ module.exports = function createUpdatedCollection(collectionA, objectB) {
 
     return result;
 
-}
+};

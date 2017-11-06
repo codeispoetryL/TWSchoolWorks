@@ -2,6 +2,7 @@
 
 module.exports = function countSameElements(collection) {
     let result = [];
+
     for (let i = 0; i < collection.length; i++) {
         if (collection[i].length > 1) {
             if (collection[i].length === 5) {
@@ -29,4 +30,4 @@ module.exports = function countSameElements(collection) {
     }
 
     return result2;
-}
+};

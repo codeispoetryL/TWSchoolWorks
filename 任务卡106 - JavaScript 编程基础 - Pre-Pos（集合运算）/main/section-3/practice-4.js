@@ -2,6 +2,7 @@
 
 module.exports = function createUpdatedCollection(collectionA, objectB) {
     let res = [];
+
     for (let i = 0; i < collectionA.length; i++) {
         if (collectionA[i].length > 1) {
             for (let j = 0; j < parseInt(collectionA[i][2]); j++) {
@@ -15,10 +16,11 @@ module.exports = function createUpdatedCollection(collectionA, objectB) {
 
     let result = [];
     let temp = 0;
+
     for (let i = 0; i < res.length; i++) {
         temp += 1;
         if (res[i] !== res[i + 1]) {
-            result.push({key: res[i], count: temp})
+            result.push({key: res[i], count: temp});
             temp = 0;
         }
     }
@@ -34,4 +36,4 @@ module.exports = function createUpdatedCollection(collectionA, objectB) {
     }
 
     return result;
-}
+};

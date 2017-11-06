@@ -3,6 +3,7 @@
 module.exports = function countSameElements(collection) {
     let array = [];
     let count = 1;
+
     for (let i = 0; i < collection.length; i++) {
         if (collection[i] === collection[i + 1]) {
             count++;
@@ -23,4 +24,4 @@ module.exports = function countSameElements(collection) {
     }
 
     return array;
-}
+};
