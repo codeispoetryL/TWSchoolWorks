@@ -1,8 +1,8 @@
 'use strict';
 
-function statictis(collectionA, result) {
-    let temp = 0;
+module.exports = function createUpdatedCollection(collectionA, objectB) {
     let result = [];
+    let temp = 0;
 
     for (let i = 0; i < collectionA.length; i++) {
         temp += 1;
@@ -11,13 +11,6 @@ function statictis(collectionA, result) {
             temp = 0;
         }
     }
-
-    return result;
-}
-
-module.exports = function createUpdatedCollection(collectionA, objectB) {
-
-    let result = statictis(collectionA);
 
     for (let j = 0; j < objectB.value.length; j++) {
         for (let i = 0; i < result.length; i++) {
@@ -30,4 +23,5 @@ module.exports = function createUpdatedCollection(collectionA, objectB) {
     }
 
     return result;
+
 }

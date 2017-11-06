@@ -14,12 +14,6 @@ module.exports = function collectSameElements(collectionA, collectionB) {
     return result;
 };
 
-/*
-解题的关键在于知道Array对象的push()方法，
-参考资料：http://www.w3school.com.cn/jsref/jsref_push.asp
-*/
-
-
 
 
 
