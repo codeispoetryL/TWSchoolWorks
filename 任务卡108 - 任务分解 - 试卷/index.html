@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>统一建模语言理论测试</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="Scores.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>统一建模语言伦理测试<br/>
+                <small class="text-info">
+                    考试科目：统一建模语言&nbsp;&nbsp;
+                    时间：100分钟&nbsp;&nbsp;
+                    满分：100
+                </small>
+            </h1>
+        </div>
+
+        <form class="form-inline">
+            <div class="form-group">
+                <p class="form-control-static">班级：</p>
+                <input type="text" class="form-control" style="width: 150px" placeholder="请输入你的班级">
+                <p class="form-control-static">学号：</p>
+                <input type="text" class="form-control" id="number" style="width: 150px" placeholder="请输入你的学号">
+                <p class="form-control-static">姓名：</p>
+                <input type="text" class="form-control" id="name" style="width: 150px" placeholder="请输入你的姓名">
+            </div>
+        </form>
+
+        <h3 class="text-primary">一、填空题（每空10分，共20分）</h3>
+        <div class="col-md-12">
+            <form>
+                <div class="form-group">
+                    <p class="form-control-static">1.UML的中文全称是：</p>
+                    <input type="text" id="gap1" class="form-control" style="width: 500px" placeholder="统一建模语言">
+                    <p class="form-control-static">2.对象最突出的特点是：</p>
+                    <input type="text" id="gap2" class="form-control" style="width: 500px" placeholder="封装性继承性多态性">
+                </div>
+            </form>
+        </div>
+
+        <h3 class="text-primary">二、选择题（每空10分，共20分）</h3>
+        <div class="col-md-12">
+            <form>
+                <div class="form-group">
+                    <p>1.UML与软件工程的关系是：B</p>
+                    <div class="col-md-12">
+                        <div class="radio"><label><input type="radio" name="uml">(A)UML就是软件工程</label></div>
+                        <div class="radio"><label><input type="radio" name="uml">(B)UML参与到软件工程中软件开发过程的几个阶段</label></div>
+                        <div class="radio"><label><input type="radio" name="uml">(C)UML与软件工程无关</label></div>
+                        <div class="radio"><label><input type="radio" name="uml">(D)UML是软件工程的一部分</label></div>
+                    </div>
+                    <p>2.Java语言的支持：A</p>
+                    <div class="col-md-12">
+                        <div class="radio"><label><input type="radio" name="java">(A)单继承</label></div>
+                        <div class="radio"><label><input type="radio" name="java">(B)多继承</label></div>
+                        <div class="radio"><label><input type="radio" name="java">(B)多继承</label></div>
+                        <div class="radio"><label><input type="radio" name="java">(D)单继承和多继承都不支持</label></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <h3 class="text-primary">三、多选题（每题10分，共20分）</h3>
+        <div class="col-md-12">
+            <form>
+                <div class="form-group">
+                    <p class="form-control-static">1.用例的粒度分为以下哪三种：ABD</p>
+                    <div class="col-md-12">
+                        <div class="checkbox"><label><input type="checkbox" name="granularity">(A)概述级</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="granularity">(B)需求级</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="granularity">(C)用户目标级</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="granularity">(D)子功能级</label></div>
+                    </div>
+                    <p class="form-control-static">2.类图有以下哪三部分组成：ABC</p>
+                    <div class="col-md-12">
+                        <div class="checkbox"><label><input type="checkbox" name="diagram">(A)名称(Name)</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="diagram">(B)属性(Attribute)</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="diagram">(C)操作(Operation)</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="diagram">(D)方法(Function)</label></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <h3 class="text-primary">四、判断题（每题10分，共20分）</h3>
+        <div class="col-md-12">
+            <form>
+                <div class="form-group">
+                    <p>1.用例图只是用于和客户交流和沟通的，用于确定需求(×)。
+                        <label><input type="radio" name="judge1"><span class="glyphicon glyphicon-ok"></span></label>
+                        <label><input type="radio" name="judge1"><span class="glyphicon glyphicon-remove"></span></label>
+                    </p>
+                    <p class="form-control-static">2.在状态图中，终止状态在一个状态图中允许有任意多个(√)。
+                        <label><input type="radio" name="judge2"><span class="glyphicon glyphicon-ok"></span></label>
+                        <label><input type="radio" name="judge2"><span class="glyphicon glyphicon-remove"></span></label>
+                    </p>
+                </div>
+            </form>
+        </div>
+
+        <h3 class="text-primary">五、简答题（每题20分，共20分）</h3>
+        <div class="col-md-12">
+            <form>
+                <div class="form-group">
+                    <p>1.简述什么是模型以及模型的表现形式？</p>
+                    <label>
+                        <textarea id="area" class="form-control" rows="6" cols="70">模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、失误或概念的一种表达形式。可以是物理实体；也可以是某种图形；或者是一种教学表达式。</textarea>
+                    </label>
+                </div>
+            </form>
+            <button type="button" class="btn btn-info" onclick="totalScores()">计算分数</button>
+            <hr>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

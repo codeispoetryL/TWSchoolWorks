@@ -8,6 +8,7 @@ module.exports = function createUpdatedCollection(collectionA, objectB) {
                 collectionA[j].count -= 1;
             }
         }
+
     }
 
     return collectionA;
