@@ -8,6 +8,7 @@ function gapFilling(scores) {
     if (value2 === '封装性继承性多态性') {
         scores += 10;
     }
+
     return scores;
 }
 
@@ -21,6 +22,7 @@ function singleChoice(scores) {
     if (radio2[0].checked === true) {
         scores += 10;
     }
+
     return scores;
 }
 
@@ -34,6 +36,7 @@ function multipleChoice(scores) {
     if (checkbox2[0].checked === true && checkbox2[1].checked === true && checkbox2[2].checked === true && checkbox2[3].checked === false) {
         scores += 10;
     }
+
     return scores;
 }
 
@@ -47,6 +50,7 @@ function trueOrFalseQuestion(scores) {
     if (judge2[0].checked === true) {
         scores += 10;
     }
+
     return scores;
 }
 
@@ -56,6 +60,7 @@ function shortAnswerQuestion(scores) {
         '可以是物理实体；也可以是某种图形；或者是一种教学表达式。') {
         scores += 20;
     }
+
     return scores;
 }
 
@@ -71,7 +76,6 @@ function totalScores() {
     scores = trueOrFalseQuestion(scores);
 
     scores = shortAnswerQuestion(scores);
-
 
     alert("您的得分为：" + scores + "分！");
 }
