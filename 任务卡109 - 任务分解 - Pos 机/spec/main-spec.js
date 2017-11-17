@@ -1,12 +1,12 @@
-const database = require('../main/datbase');
+const loadAllItems = require('../main/datbase');
 const main = require('../main/main');
 
 describe('pos', function () {
-    var allItems;
-    var inputs;
+    let allItems;
+    let inputs;
 
     beforeEach(function () {
-        allItems = database.loadAllItems;
+        allItems = loadAllItems();
         inputs = [
             'ITEM000001',
             'ITEM000001',
@@ -24,9 +24,9 @@ describe('pos', function () {
 
         spyOn(console, 'log');
 
-        main(inputs);
+        main(inputs,allItems);
 
-        var expectText =
+        let expectText =
             '***<没钱赚商店>购物清单***\n' +
             '名称：雪碧，数量：5瓶，单价：3.00(元)，小计：12.00(元)\n' +
             '名称：荔枝，数量：2斤，单价：15.00(元)，小计：30.00(元)\n' +
