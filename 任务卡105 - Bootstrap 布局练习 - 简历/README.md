@@ -21,11 +21,6 @@
 
 - head中的最后一个link引入了[fontawesome字体图标](http://fontawesome.dashgame.com/)，仅应用在了`// CONTACT`部分，其他字体图标用的是Bootstrap的。
 
-#### 关于CSS样式
-
-- 以追求bootstrap原生样式的原则，自定义了几个选择器，他们只发挥了文字居中和修改文字颜色的作用。
-
 #### 关于移动端适配
 
 - bootstrap默认是移动设备优先的，所以无需加入媒体查询，默认就有。
-- 移动端访问效果出色。
