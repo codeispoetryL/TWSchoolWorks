@@ -18,3 +18,5 @@
 - `√`和`×`用的是字体图标
 - `class="form-control-static"`属性用来控制单行样式，而class="form-inline"是让文本和输入组件在一行上。
 - 输入组件的题目说明用了`p`标签而没有使用`label`，是因为`label`的显示效果是粗体的。
+
+- 部分标签没有写name属性
